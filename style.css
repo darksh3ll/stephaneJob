@@ -1,0 +1,74 @@
+
+
+body * img {
+    filter: grayscale(100%);
+}
+
+/*General*/
+.p80 {
+    margin-top: 60px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+.pt {
+    padding-top: 10px;
+}
+/*Header*/
+
+.jumbotron {
+    background:linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 200%), url("Img/Header.jpg")center;
+    background-size: cover;
+}
+/*About*/
+
+.formation {
+    height: auto;   ;
+    background: url("Img/Wild_Code_School.jpg") center;
+    background-size: cover;
+   display: grid;
+    grid-template-rows: repeat(4,1fr);
+    justify-items: center;
+    align-items:center;
+
+}
+
+.technologies {
+    height: 600px;
+    background: url("Img/cards.jpg") center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+}
+.cardsProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: auto;
+    background-color: #007bff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    justify-items: center;
+    align-items: center;
+
+}
+
+.ico {
+    font-size: 1em;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
